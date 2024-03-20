@@ -1,4 +1,21 @@
 .table {
     font-size: small;
+    text-align: center;
 }
 
+th, td {
+    width: 10rem;
+}
+
+.contenedor-tabla {
+    max-width: 800px; 
+  }
+
+  @media (max-width: 1050px) {
+    .table {
+        font-size: x-small;
+    } 
+    th, td {
+        width: 6rem;
+    }
+  }
